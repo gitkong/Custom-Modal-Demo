@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110F5A131D78AE9E00143E78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A121D78AE9E00143E78 /* main.m */; };
+		110F5A161D78AE9E00143E78 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A151D78AE9E00143E78 /* AppDelegate.m */; };
+		110F5A191D78AE9E00143E78 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A181D78AE9E00143E78 /* ViewController.m */; };
+		110F5A1C1D78AE9E00143E78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110F5A1A1D78AE9E00143E78 /* Main.storyboard */; };
+		110F5A1E1D78AE9E00143E78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110F5A1D1D78AE9E00143E78 /* Assets.xcassets */; };
+		110F5A211D78AE9E00143E78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110F5A1F1D78AE9E00143E78 /* LaunchScreen.storyboard */; };
+		110F5A2C1D78AE9E00143E78 /* Custom_ModalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A2B1D78AE9E00143E78 /* Custom_ModalTests.m */; };
+		110F5A371D78AE9E00143E78 /* Custom_ModalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A361D78AE9E00143E78 /* Custom_ModalUITests.m */; };
+		110F5A461D78AF2400143E78 /* FLTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A451D78AF2400143E78 /* FLTransitionAnimation.m */; };
+		110F5A491D78CBD400143E78 /* FLTransitionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A481D78CBD400143E78 /* FLTransitionManager.m */; };
+		110F5A4C1D78D2DF00143E78 /* FLPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A4B1D78D2DF00143E78 /* FLPresentationController.m */; };
+		110F5A4F1D78DEFB00143E78 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 110F5A4E1D78DEFB00143E78 /* SecondViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		110F5A281D78AE9E00143E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110F5A061D78AE9D00143E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110F5A0D1D78AE9D00143E78;
+			remoteInfo = "Custom Modal";
+		};
+		110F5A331D78AE9E00143E78 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110F5A061D78AE9D00143E78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110F5A0D1D78AE9D00143E78;
+			remoteInfo = "Custom Modal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		110F5A0E1D78AE9D00143E78 /* Custom Modal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom Modal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		110F5A121D78AE9E00143E78 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		110F5A141D78AE9E00143E78 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		110F5A151D78AE9E00143E78 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		110F5A171D78AE9E00143E78 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		110F5A181D78AE9E00143E78 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		110F5A1B1D78AE9E00143E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		110F5A1D1D78AE9E00143E78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		110F5A201D78AE9E00143E78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		110F5A221D78AE9E00143E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110F5A271D78AE9E00143E78 /* Custom ModalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom ModalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		110F5A2B1D78AE9E00143E78 /* Custom_ModalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_ModalTests.m; sourceTree = "<group>"; };
+		110F5A2D1D78AE9E00143E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110F5A321D78AE9E00143E78 /* Custom ModalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Custom ModalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		110F5A361D78AE9E00143E78 /* Custom_ModalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Custom_ModalUITests.m; sourceTree = "<group>"; };
+		110F5A381D78AE9E00143E78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110F5A441D78AF2400143E78 /* FLTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTransitionAnimation.h; sourceTree = "<group>"; };
+		110F5A451D78AF2400143E78 /* FLTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTransitionAnimation.m; sourceTree = "<group>"; };
+		110F5A471D78CBD400143E78 /* FLTransitionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLTransitionManager.h; sourceTree = "<group>"; };
+		110F5A481D78CBD400143E78 /* FLTransitionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLTransitionManager.m; sourceTree = "<group>"; };
+		110F5A4A1D78D2DF00143E78 /* FLPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLPresentationController.h; sourceTree = "<group>"; };
+		110F5A4B1D78D2DF00143E78 /* FLPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLPresentationController.m; sourceTree = "<group>"; };
+		110F5A4D1D78DEFB00143E78 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		110F5A4E1D78DEFB00143E78 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110F5A0B1D78AE9D00143E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F5A241D78AE9E00143E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F5A2F1D78AE9E00143E78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110F5A051D78AE9D00143E78 = {
+			isa = PBXGroup;
+			children = (
+				110F5A101D78AE9E00143E78 /* Custom Modal */,
+				110F5A2A1D78AE9E00143E78 /* Custom ModalTests */,
+				110F5A351D78AE9E00143E78 /* Custom ModalUITests */,
+				110F5A0F1D78AE9D00143E78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		110F5A0F1D78AE9D00143E78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				110F5A0E1D78AE9D00143E78 /* Custom Modal.app */,
+				110F5A271D78AE9E00143E78 /* Custom ModalTests.xctest */,
+				110F5A321D78AE9E00143E78 /* Custom ModalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		110F5A101D78AE9E00143E78 /* Custom Modal */ = {
+			isa = PBXGroup;
+			children = (
+				110F5A141D78AE9E00143E78 /* AppDelegate.h */,
+				110F5A151D78AE9E00143E78 /* AppDelegate.m */,
+				110F5A171D78AE9E00143E78 /* ViewController.h */,
+				110F5A181D78AE9E00143E78 /* ViewController.m */,
+				110F5A4D1D78DEFB00143E78 /* SecondViewController.h */,
+				110F5A4E1D78DEFB00143E78 /* SecondViewController.m */,
+				110F5A441D78AF2400143E78 /* FLTransitionAnimation.h */,
+				110F5A451D78AF2400143E78 /* FLTransitionAnimation.m */,
+				110F5A471D78CBD400143E78 /* FLTransitionManager.h */,
+				110F5A481D78CBD400143E78 /* FLTransitionManager.m */,
+				110F5A4A1D78D2DF00143E78 /* FLPresentationController.h */,
+				110F5A4B1D78D2DF00143E78 /* FLPresentationController.m */,
+				110F5A1A1D78AE9E00143E78 /* Main.storyboard */,
+				110F5A1D1D78AE9E00143E78 /* Assets.xcassets */,
+				110F5A1F1D78AE9E00143E78 /* LaunchScreen.storyboard */,
+				110F5A221D78AE9E00143E78 /* Info.plist */,
+				110F5A111D78AE9E00143E78 /* Supporting Files */,
+			);
+			path = "Custom Modal";
+			sourceTree = "<group>";
+		};
+		110F5A111D78AE9E00143E78 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				110F5A121D78AE9E00143E78 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		110F5A2A1D78AE9E00143E78 /* Custom ModalTests */ = {
+			isa = PBXGroup;
+			children = (
+				110F5A2B1D78AE9E00143E78 /* Custom_ModalTests.m */,
+				110F5A2D1D78AE9E00143E78 /* Info.plist */,
+			);
+			path = "Custom ModalTests";
+			sourceTree = "<group>";
+		};
+		110F5A351D78AE9E00143E78 /* Custom ModalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				110F5A361D78AE9E00143E78 /* Custom_ModalUITests.m */,
+				110F5A381D78AE9E00143E78 /* Info.plist */,
+			);
+			path = "Custom ModalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		110F5A0D1D78AE9D00143E78 /* Custom Modal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110F5A3B1D78AE9E00143E78 /* Build configuration list for PBXNativeTarget "Custom Modal" */;
+			buildPhases = (
+				110F5A0A1D78AE9D00143E78 /* Sources */,
+				110F5A0B1D78AE9D00143E78 /* Frameworks */,
+				110F5A0C1D78AE9D00143E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Custom Modal";
+			productName = "Custom Modal";
+			productReference = 110F5A0E1D78AE9D00143E78 /* Custom Modal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		110F5A261D78AE9E00143E78 /* Custom ModalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110F5A3E1D78AE9E00143E78 /* Build configuration list for PBXNativeTarget "Custom ModalTests" */;
+			buildPhases = (
+				110F5A231D78AE9E00143E78 /* Sources */,
+				110F5A241D78AE9E00143E78 /* Frameworks */,
+				110F5A251D78AE9E00143E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110F5A291D78AE9E00143E78 /* PBXTargetDependency */,
+			);
+			name = "Custom ModalTests";
+			productName = "Custom ModalTests";
+			productReference = 110F5A271D78AE9E00143E78 /* Custom ModalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		110F5A311D78AE9E00143E78 /* Custom ModalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110F5A411D78AE9E00143E78 /* Build configuration list for PBXNativeTarget "Custom ModalUITests" */;
+			buildPhases = (
+				110F5A2E1D78AE9E00143E78 /* Sources */,
+				110F5A2F1D78AE9E00143E78 /* Frameworks */,
+				110F5A301D78AE9E00143E78 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110F5A341D78AE9E00143E78 /* PBXTargetDependency */,
+			);
+			name = "Custom ModalUITests";
+			productName = "Custom ModalUITests";
+			productReference = 110F5A321D78AE9E00143E78 /* Custom ModalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		110F5A061D78AE9D00143E78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = clarence;
+				TargetAttributes = {
+					110F5A0D1D78AE9D00143E78 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					110F5A261D78AE9E00143E78 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 110F5A0D1D78AE9D00143E78;
+					};
+					110F5A311D78AE9E00143E78 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 110F5A0D1D78AE9D00143E78;
+					};
+				};
+			};
+			buildConfigurationList = 110F5A091D78AE9D00143E78 /* Build configuration list for PBXProject "Custom Modal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 110F5A051D78AE9D00143E78;
+			productRefGroup = 110F5A0F1D78AE9D00143E78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110F5A0D1D78AE9D00143E78 /* Custom Modal */,
+				110F5A261D78AE9E00143E78 /* Custom ModalTests */,
+				110F5A311D78AE9E00143E78 /* Custom ModalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		110F5A0C1D78AE9D00143E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F5A211D78AE9E00143E78 /* LaunchScreen.storyboard in Resources */,
+				110F5A1E1D78AE9E00143E78 /* Assets.xcassets in Resources */,
+				110F5A1C1D78AE9E00143E78 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F5A251D78AE9E00143E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F5A301D78AE9E00143E78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110F5A0A1D78AE9D00143E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F5A191D78AE9E00143E78 /* ViewController.m in Sources */,
+				110F5A161D78AE9E00143E78 /* AppDelegate.m in Sources */,
+				110F5A491D78CBD400143E78 /* FLTransitionManager.m in Sources */,
+				110F5A4F1D78DEFB00143E78 /* SecondViewController.m in Sources */,
+				110F5A131D78AE9E00143E78 /* main.m in Sources */,
+				110F5A461D78AF2400143E78 /* FLTransitionAnimation.m in Sources */,
+				110F5A4C1D78D2DF00143E78 /* FLPresentationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F5A231D78AE9E00143E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F5A2C1D78AE9E00143E78 /* Custom_ModalTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110F5A2E1D78AE9E00143E78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110F5A371D78AE9E00143E78 /* Custom_ModalUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		110F5A291D78AE9E00143E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110F5A0D1D78AE9D00143E78 /* Custom Modal */;
+			targetProxy = 110F5A281D78AE9E00143E78 /* PBXContainerItemProxy */;
+		};
+		110F5A341D78AE9E00143E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110F5A0D1D78AE9D00143E78 /* Custom Modal */;
+			targetProxy = 110F5A331D78AE9E00143E78 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		110F5A1A1D78AE9E00143E78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110F5A1B1D78AE9E00143E78 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		110F5A1F1D78AE9E00143E78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110F5A201D78AE9E00143E78 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		110F5A391D78AE9E00143E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		110F5A3A1D78AE9E00143E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		110F5A3C1D78AE9E00143E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Custom Modal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.Custom-Modal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		110F5A3D1D78AE9E00143E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Custom Modal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.Custom-Modal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		110F5A3F1D78AE9E00143E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Custom ModalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.Custom-ModalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Custom Modal.app/Custom Modal";
+			};
+			name = Debug;
+		};
+		110F5A401D78AE9E00143E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Custom ModalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.Custom-ModalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Custom Modal.app/Custom Modal";
+			};
+			name = Release;
+		};
+		110F5A421D78AE9E00143E78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Custom ModalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.Custom-ModalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Custom Modal";
+			};
+			name = Debug;
+		};
+		110F5A431D78AE9E00143E78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Custom ModalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "clarence.Custom-ModalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Custom Modal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110F5A091D78AE9D00143E78 /* Build configuration list for PBXProject "Custom Modal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110F5A391D78AE9E00143E78 /* Debug */,
+				110F5A3A1D78AE9E00143E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110F5A3B1D78AE9E00143E78 /* Build configuration list for PBXNativeTarget "Custom Modal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110F5A3C1D78AE9E00143E78 /* Debug */,
+				110F5A3D1D78AE9E00143E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		110F5A3E1D78AE9E00143E78 /* Build configuration list for PBXNativeTarget "Custom ModalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110F5A3F1D78AE9E00143E78 /* Debug */,
+				110F5A401D78AE9E00143E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		110F5A411D78AE9E00143E78 /* Build configuration list for PBXNativeTarget "Custom ModalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110F5A421D78AE9E00143E78 /* Debug */,
+				110F5A431D78AE9E00143E78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 110F5A061D78AE9D00143E78 /* Project object */;
+}
